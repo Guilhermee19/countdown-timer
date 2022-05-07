@@ -14,7 +14,7 @@
 </head>
 <body>
   <div class="image_stars"></div>
-  <div class="title"> We're launching soon </div>
+  <div class="title"> We're waiting for the new year </div>
 
   <div class="center">
     <div class="card">
@@ -73,7 +73,9 @@
   </footer>
 </body>
 <script>
-  timer('2022/07/19 00:00:00')
+  
+  let year =  new Date().getFullYear()
+  timer(`${year}/12/31 23:59:59`)
 
   function  timer(date) {
     var new_date = new Date(date)

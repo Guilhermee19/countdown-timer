@@ -1,6 +1,5 @@
 
 *{
-    color: white !important;
     text-decoration: none !important;
     font-family: 'Red Hat Text', sans-serif !important;
 }
@@ -43,6 +42,7 @@ body{
 }
 
 .title{
+    color: white;
     width: 100%;
     text-align: center;
     font-size: 16px;
@@ -198,6 +198,7 @@ footer{
 }
 
 .attribution { 
+    color: white;
     width: 100%;
     margin: auto 0 10px;
     text-transform: uppercase;
